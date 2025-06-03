@@ -64,25 +64,22 @@ The most reliable and straightforward solution is to use Java’s built-in `jar`
 
 For a user-friendly experience, use `quick_extract.py` — a zero-config script that prompts for your ZIP and extracts it automatically using the Java method.
 
-### 📦 `quick_extract.py`
+### 📦 [quick_extract.py](https://github.com/egxl/zip-split-bypass/raw/refs/heads/main/quick_extract.py)
 
 * Prompts you to select the fake ZIP file
 * Extracts using Java’s `jar xf`
 * Outputs files into a folder named after the ZIP
 
-> Example: `Downloads/fake.zip` will be extracted to `Downloads/fake/`.
+> Example: `Downloads/[FILENAME].zip` will be extracted to `Downloads/[FILENAME]/`.
 
 #### ▶️ To run:
 
-1. Make sure you have **Java installed**
-2. Install Python 3 if you don’t have it
-3. Double-click `quick_extract.py` or run it with:
+1. Make sure you have [Java](https://www.oracle.com/java/technologies/downloads/) & [Python 3](https://www.python.org/downloads/) installed
+2. Double-click `quick_extract.py` or run it in Terminal with:
 
 ```sh
 python quick_extract.py
 ```
-
-> ✅ Works on Windows, macOS, and Linux.
 
 ---
 
